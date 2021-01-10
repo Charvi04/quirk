@@ -82,6 +82,7 @@ export const CardTitleAndSubtitleContent = ({ title, subtitle }) => (
     <SubHeader
       style={{
         fontSize: 16,
+        fontFamily:'rockwell'
       }}
     >
       {title}
@@ -90,6 +91,7 @@ export const CardTitleAndSubtitleContent = ({ title, subtitle }) => (
       style={{
         fontSize: 14,
         marginBottom: 0,
+        fontFamily:'rockwell'
       }}
     >
       {subtitle}
@@ -108,6 +110,7 @@ export const CardTextContent = ({ text }: { text: string }) => (
       paddingRight: 12,
       paddingTop: 12,
       paddingBottom: 6,
+      fontFamily:'rockwell'
     }}
   >
     {text}
